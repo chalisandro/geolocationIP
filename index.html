@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Geolocalización</title>
+</head>
+<body>
+    <nav class="nav-wrapper">
+        <a href="#" class="brand-logo center">Geolocalización</a>
+    </nav>
+    <div class="container">
+        <form id="form">
+            <div class="input-field">
+                <h5>IP del usuario</h5>
+                <input required type="text" id="ip" placeholder="Introduce la IP (Ejemplo: 255.255.255.255)" />
+            </div>
+            <button type="submit" id="submit" class="boton">Buscar información</button>
+        </form>
+        <div>
+            <pre id="resultado"></pre>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

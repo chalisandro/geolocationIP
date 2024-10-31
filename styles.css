@@ -1,0 +1,40 @@
+
+input {
+    color: #ffffff;
+    &::placeholder {
+        color: hsl(0, 3%, 41%);
+    }
+}
+body {
+    background-color: #121212; 
+    color: #ffffff; 
+}
+
+.nav-wrapper {
+    background-color: #1f1f1f; 
+}
+
+.boton {
+    background: #00c7ec; 
+    color: #fff; 
+    border: none; 
+    border-radius: 30px; 
+    padding: 10px 20px; 
+    font-size: 15px; 
+    cursor: pointer; 
+    transition: all 0.3s; 
+}
+
+.boton:hover {
+    background: #10476b; 
+    transform: scale(1.05);
+}
+
+.boton:active {
+    transform: scale(0.95);
+}
+
+
+
+
+
